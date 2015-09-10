@@ -1,0 +1,9 @@
+..\Output\attitudeekf.o: ..\AHRS\AttitudeEKF.c
+..\Output\attitudeekf.o: ..\AHRS\AttitudeEKF.h
+..\Output\attitudeekf.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+..\Output\attitudeekf.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\Output\attitudeekf.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+..\Output\attitudeekf.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\Output\attitudeekf.o: ..\AHRS\rtwtypes.h
+..\Output\attitudeekf.o: C:\Keil\ARM\ARMCC\bin\..\include\limits.h
+..\Output\attitudeekf.o: ..\AHRS\AttitudeEKF_types.h

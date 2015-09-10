@@ -1,0 +1,79 @@
+*** Creating Trace Output File '..\Output\STM32_Project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\startup_stm32f4xx.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_adc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_can.o"'
+### List of Objects: adding '"..\output\stm32f4xx_crc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_cryp.o"'
+### List of Objects: adding '"..\output\stm32f4xx_cryp_aes.o"'
+### List of Objects: adding '"..\output\stm32f4xx_cryp_des.o"'
+### List of Objects: adding '"..\output\stm32f4xx_cryp_tdes.o"'
+### List of Objects: adding '"..\output\stm32f4xx_dac.o"'
+### List of Objects: adding '"..\output\stm32f4xx_dbgmcu.o"'
+### List of Objects: adding '"..\output\stm32f4xx_dcmi.o"'
+### List of Objects: adding '"..\output\stm32f4xx_dma.o"'
+### List of Objects: adding '"..\output\stm32f4xx_exti.o"'
+### List of Objects: adding '"..\output\stm32f4xx_flash.o"'
+### List of Objects: adding '"..\output\stm32f4xx_fsmc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_gpio.o"'
+### List of Objects: adding '"..\output\stm32f4xx_hash.o"'
+### List of Objects: adding '"..\output\stm32f4xx_hash_md5.o"'
+### List of Objects: adding '"..\output\stm32f4xx_hash_sha1.o"'
+### List of Objects: adding '"..\output\stm32f4xx_i2c.o"'
+### List of Objects: adding '"..\output\stm32f4xx_iwdg.o"'
+### List of Objects: adding '"..\output\stm32f4xx_pwr.o"'
+### List of Objects: adding '"..\output\stm32f4xx_rcc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_rng.o"'
+### List of Objects: adding '"..\output\stm32f4xx_rtc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_sdio.o"'
+### List of Objects: adding '"..\output\stm32f4xx_spi.o"'
+### List of Objects: adding '"..\output\stm32f4xx_syscfg.o"'
+### List of Objects: adding '"..\output\stm32f4xx_tim.o"'
+### List of Objects: adding '"..\output\stm32f4xx_usart.o"'
+### List of Objects: adding '"..\output\stm32f4xx_wwdg.o"'
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\system_stm32f4xx.o"'
+### List of Objects: adding '"..\output\delay.o"'
+### List of Objects: adding '"..\output\my_i2c.o"'
+### List of Objects: adding '"..\output\my_led.o"'
+### List of Objects: adding '"..\output\my_flash.o"'
+### List of Objects: adding '"..\output\my_timer.o"'
+### List of Objects: adding '"..\output\my_oled.o"'
+### List of Objects: adding '"..\output\my_usart.o"'
+### List of Objects: adding '"..\output\system_init.o"'
+### List of Objects: adding '"..\output\system_events.o"'
+### List of Objects: adding '"..\output\global_variable.o"'
+### List of Objects: adding '"..\output\l3gd20.o"'
+### List of Objects: adding '"..\output\ms5611.o"'
+### List of Objects: adding '"..\output\lsm303d.o"'
+### List of Objects: adding '"..\output\mpu6050.o"'
+### List of Objects: adding '"..\output\hc_sr04.o"'
+### List of Objects: adding '"..\output\hmc5883l.o"'
+### List of Objects: adding '"..\output\gps_neo_m8n.o"'
+### List of Objects: adding '"..\output\commonplan.o"'
+### List of Objects: adding '"..\output\commonconversions.o"'
+### List of Objects: adding '"..\output\qcf_attitude.o"'
+### List of Objects: adding '"..\output\ekf_attitude.o"'
+### List of Objects: adding '"..\output\ekf_mag_fusion.o"'
+### List of Objects: adding '"..\output\ekf_ins_gps_estimator.o"'
+### List of Objects: adding '"..\output\pid.o"'
+### List of Objects: adding '"..\output\attitudecontrol.o"'
+### List of Objects: adding '"..\output\positioncontrol.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "..\output\startup_stm32f4xx.o" "..\output\misc.o" "..\output\stm32f4xx_adc.o" "..\output\stm32f4xx_can.o" "..\output\stm32f4xx_crc.o" "..\output\stm32f4xx_cryp.o" "..\output\stm32f4xx_cryp_aes.o" "..\output\stm32f4xx_cryp_des.o" "..\output\stm32f4xx_cryp_tdes.o" "..\output\stm32f4xx_dac.o" "..\output\stm32f4xx_dbgmcu.o" "..\output\stm32f4xx_dcmi.o" "..\output\stm32f4xx_dma.o" "..\output\stm32f4xx_exti.o" "..\output\stm32f4xx_flash.o" "..\output\stm32f4xx_fsmc.o" "..\output\stm32f4xx_gpio.o" "..\output\stm32f4xx_hash.o" "..\output\stm32f4xx_hash_md5.o" "..\output\stm32f4xx_hash_sha1.o" "..\output\stm32f4xx_i2c.o" "..\output\stm32f4xx_iwdg.o" "..\output\stm32f4xx_pwr.o" "..\output\stm32f4xx_rcc.o" "..\output\stm32f4xx_rng.o" "..\output\stm32f4xx_rtc.o" "..\output\stm32f4xx_sdio.o" "..\output\stm32f4xx_spi.o" "..\output\stm32f4xx_syscfg.o" "..\output\stm32f4xx_tim.o" "..\output\stm32f4xx_usart.o" "..\output\stm32f4xx_wwdg.o" "..\output\main.o" "..\output\system_stm32f4xx.o" "..\output\delay.o" "..\output\my_i2c.o" "..\output\my_led.o" "..\output\my_flash.o" "..\output\my_timer.o" "..\output\my_oled.o" "..\output\my_usart.o" "..\output\system_init.o" "..\output\system_events.o" "..\output\global_variable.o" "..\output\l3gd20.o" "..\output\ms5611.o" "..\output\lsm303d.o" "..\output\mpu6050.o" "..\output\hc_sr04.o" "..\output\hmc5883l.o" "..\output\gps_neo_m8n.o" "..\output\commonplan.o" "..\output\commonconversions.o" "..\output\qcf_attitude.o" "..\output\ekf_attitude.o" "..\output\ekf_mag_fusion.o" "..\output\ekf_ins_gps_estimator.o" "..\output\pid.o" "..\output\attitudecontrol.o" "..\output\positioncontrol.o" 
+--strict --scatter "..\Output\STM32_Project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\STM32_Project.map" -o ..\Output\STM32_Project.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\STM32_Project.axf'
+### ADS-LD Command File: '..\Output\STM32_Project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\STM32_Project.lnp', Handle=0x00000324
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\STM32_Project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

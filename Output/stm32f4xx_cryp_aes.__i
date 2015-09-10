@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CMSIS -I..\Startup -I..\User -I..\FW -I..\Output -I..\Listing -I..\Doc -I..\Sensors -I..\AHRS -I..\MCU_System -I..\Control -I..\CommonDeal -I..\PX4 -I..\INS_GPS_Navigation 
+-I f:\Keil\ARM\RV31\INC 
+-I f:\Keil\ARM\CMSIS\Include 
+-I f:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -o "..\Output\stm32f4xx_cryp_aes.o" --omf_browse "..\Output\stm32f4xx_cryp_aes.crf" --depend "..\Output\stm32f4xx_cryp_aes.d" "..\FW\stm32f4xx_cryp_aes.c"

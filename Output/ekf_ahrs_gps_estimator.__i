@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CMSIS -I..\Startup -I..\User -I..\FW -I..\Output -I..\Listing -I..\Doc -I..\Sensors -I..\AHRS -I..\MCU_System -I..\Control -I..\EKF_att_pos_estimator -I..\PX4_EKF_INS_GPS -I..\OpenPilot_EKF_INS_GPS 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -o "..\Output\ekf_ahrs_gps_estimator.o" --omf_browse "..\Output\ekf_ahrs_gps_estimator.crf" --depend "..\Output\ekf_ahrs_gps_estimator.d" "..\EKF_att_pos_estimator\EKF_AHRS_GPS_Estimator.c"

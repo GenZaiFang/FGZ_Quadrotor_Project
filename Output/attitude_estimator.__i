@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CMSIS -I..\Startup -I..\User -I..\FW -I..\Output -I..\Listing -I..\Doc -I..\Sensors -I..\AHRS -I..\MCU_System -I..\Control -I..\EKF_att_pos_estimator -I..\CommonDeal 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -o "..\Output\attitude_estimator.o" --omf_browse "..\Output\attitude_estimator.crf" --depend "..\Output\attitude_estimator.d" "..\AHRS\Attitude_Estimator.c"
